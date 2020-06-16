@@ -1,0 +1,30 @@
+{
+  "name": "api_mongo_node",
+  "version": "1.0.0",
+  "description": "crm backend",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./index.js --exec babel-node -e js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/nandaletro/CRM_API.git"
+  },
+  "author": "Fernanda Dias",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nandaletro/CRM_API/issues"
+  },
+  "homepage": "https://github.com/nandaletro/CRM_API#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.19",
+    "nodemon": "^2.0.4"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1"
+  }
+}
